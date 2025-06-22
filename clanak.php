@@ -1,3 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PWA Projekt</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Petar Šimunović">
+    <meta name="description" content="PWA Projekt">
+    <meta name="revised" content="Projekt, rok 22.6.2025."/>
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="style.css">
+</head>
+
+<body>
+    <header>
+    <img src="images/logo.png" width="100px" title="logo" alt="logo">
+
+    <nav class="navbar main_nav" role="navigation"> 
+     <ul class="main nav navbar-nav"> 
+     <li> 
+         <a href="index.php" class="">Početna</a> 
+     </li> 
+     <li> 
+         <a href="unos.php" class="">Unos</a> 
+     </li> 
+     <li> 
+         <a href="kategorija.php?kategorija=seniori" class="">Seniori</a> 
+     </li> 
+     <li> 
+<a href="kategorija.php?kategorija=juniori" class="">Juniori</a> 
+</li> 
+<li> 
+<a href="administracija.php" class="">Administracija</a> 
+</li> 
+</ul> 
+</header>
+
 <?php 
 include 'connect.php'; 
 ?> 
@@ -37,3 +74,8 @@ $i=0;
              echo'</section> ';
        }?>
          </section>
+
+         <footer>
+</footer>
+
+</body>
